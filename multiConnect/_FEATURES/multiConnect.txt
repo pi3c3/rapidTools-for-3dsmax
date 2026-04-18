@@ -1,0 +1,8 @@
+multi connect feature list:
+-. connect vertices Editable/Edit Poly
+-. connect spline knots
+-. edge distance connect (multi level - first direction, then the opposite direction)
+-. border bridge (multi level - first just the selected edges, then all the rest of the borders)
+-. face bridge
+-. cut connect if 2 vertices selected only
+-. in one edge selected, inserts edge loop

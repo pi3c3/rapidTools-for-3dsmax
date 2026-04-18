@@ -1,0 +1,1 @@
+maz (inst_files + "\\rt_install.mzp") rapidTools

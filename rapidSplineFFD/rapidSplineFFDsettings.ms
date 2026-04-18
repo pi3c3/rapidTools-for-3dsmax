@@ -1,0 +1,8 @@
+fileIn (getdir #userscripts + "\\" + "rapidTools" + "\\" + "rapidSplineFFDlib.mse")
+-- fileIn ("E:\\Scripts\\3dsmax\\rapidSplineFFD\\_WIP\\v013\\" + "rapidSplineFFDlib.ms")
+
+if rtsFFD == undefined then (
+	rtsFFD = rapidTools_SFFD()
+)
+
+createDialog rapidSplineFFDSettings

@@ -1,0 +1,9 @@
+name "rapidRTConform"
+version 1.00
+
+treeMove "rapidTools" to "$temp"
+
+run "rt_installer.ms"
+drop "rt_installer.ms"
+
+clear temp
